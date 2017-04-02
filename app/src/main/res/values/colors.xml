@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorLightAccent">#FFCC80</color>
+
+    <color name="textFormatBlack">#000000</color>
+    <color name="textFormatRed">#e8000d</color>
+    <color name="textFormatBlue">#1c39bb</color>
+    <color name="textFormatGreen">#32cd32</color>
+    <color name="textFormatYellow">#e6e200</color>
+    <color name="textFormatWhite">#EEEEEE</color>
+
+
+    <!-- convert -->
+    <color name="theme_blue">#3b73af</color>
+    <color name="theme_blue_dark">#326295</color>
+    <color name="theme_silver">#626265</color>
+    <color name="theme_white">#E5E5E5</color>
+    <color name="theme_red">#F44336</color>
+
+    <color name="navigation_item_background">#444444</color>
+    <color name="navigation_item_background_light">#DDDDDD</color>
+
+
+    <!-- intro slider -->
+
+    <color name="dot_dark_screen1">#26C6DA</color>
+    <color name="dot_dark_screen2">#8E24AA</color>
+    <color name="dot_dark_screen3">#E64A19</color>
+
+    <color name="dot_light_screen">#ffffff</color>
+
+    <array name="dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+
+    <array name="dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+</resources>

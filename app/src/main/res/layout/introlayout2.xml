@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cry"
+        android:id="@+id/img2"
+
+        />
+
+    <TextView
+        android:text="Are you running out of storage?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@id/img2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+
+        />
+</RelativeLayout>

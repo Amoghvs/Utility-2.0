@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.abhi.utility.notes.NoteActivity">
+
+    <item
+        android:id="@+id/action_toggle_keyboard"
+        android:icon="@drawable/ic_keyboard_24px"
+        android:title="@string/action_toggle_keyboard"
+        android:onClick="toggleKeyboard"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_done"
+        android:icon="@drawable/ic_done_24dp"
+        android:title="@string/action_done"
+        android:onClick="saveOrUpdateNote"
+        app:showAsAction="always"/>
+
+</menu>

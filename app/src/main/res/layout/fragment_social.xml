@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+    android:paddingTop="10dp"
+    android:background="#00000000"
+    android:paddingBottom="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="3dp"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:stateListAnimator="@animator/lift_on_touch"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/card_view">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/opn"
+                android:id="@+id/option_image"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/option_image"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentTop="true"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/option_name"
+                android:text="Social Media"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/socialrec"
+        android:layout_height="wrap_content"
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
