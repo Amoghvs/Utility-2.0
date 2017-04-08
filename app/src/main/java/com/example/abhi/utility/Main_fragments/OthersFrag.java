@@ -37,22 +37,22 @@ public class OthersFrag extends Fragment {
     private ArrayList<Option> getMainOptions() {
         ArrayList<Option> options =new ArrayList<>();
 
-        Option option = new Option(R.drawable.icon,"news");
+        Option option = new Option(R.drawable.utility,"news");
         options.add(option);
 
-        option = new Option(R.drawable.icon,"doctors");
+        option = new Option(R.drawable.utility,"doctors");
         options.add(option);
 
-        option = new Option(R.drawable.icon,"uber");
+        option = new Option(R.drawable.utility,"uber");
         options.add(option);
 
-        option = new Option(R.drawable.icon,"hotels");
+        option = new Option(R.drawable.utility,"hotels");
         options.add(option);
 
-        option = new Option(R.drawable.icon,"--");
+        option = new Option(R.drawable.utility,"maps");
         options.add(option);
 
-        option = new Option(R.drawable.icon,"--");
+        option = new Option(R.drawable.utility,"b");
         options.add(option);
 
         option = new Option(R.drawable.happy,"b");

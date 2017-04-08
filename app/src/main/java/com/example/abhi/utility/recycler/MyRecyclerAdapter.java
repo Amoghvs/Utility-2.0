@@ -2,19 +2,16 @@ package com.example.abhi.utility.recycler;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
-import android.widget.Toast;
 
 import com.example.abhi.utility.BMI;
+import com.example.abhi.utility.BaseActivity;
 import com.example.abhi.utility.Calendar;
 import com.example.abhi.utility.Compass;
 import com.example.abhi.utility.Flashlight;
-import com.example.abhi.utility.Main_fragments.MainFrag;
 import com.example.abhi.utility.Notes;
 import com.example.abhi.utility.R;
 import com.example.abhi.utility.TabWebSocial;
@@ -24,9 +21,7 @@ import com.example.abhi.utility.calactivities.CalculatorMainAct;
 
 import java.util.ArrayList;
 
-/**
- * Created by abhi on 26/2/17.
- */
+
 
 public class MyRecyclerAdapter extends RecyclerView.Adapter<MyViewHolder>  {
 
@@ -91,6 +86,10 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyViewHolder>  {
                         i = new Intent(c, Notes.class);
                         break;
 
+                    case "Ruler":
+                        i = new Intent(c, BaseActivity.class);
+                        break;
+
                     case "facebook":
                         i = new Intent(c, TabWebSocial.class);
                         i.putExtra("website", "fb");
@@ -130,6 +129,10 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyViewHolder>  {
                     case "hotels":
                         i = new Intent(c, WebActivity.class);
                         i.putExtra("website", "ho");
+                        break;
+                    case "maps":
+                        i = new Intent(c, WebActivity.class);
+                        i.putExtra("website", "map");
                         break;
 
                 }

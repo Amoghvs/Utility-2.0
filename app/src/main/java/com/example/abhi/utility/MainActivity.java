@@ -3,19 +3,18 @@ package com.example.abhi.utility;
 import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
+import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
-import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.example.abhi.utility.Main_fragments.MainFrag;
 import com.example.abhi.utility.Main_fragments.MyFragPagerAdapter;
 import com.example.abhi.utility.Main_fragments.OthersFrag;
@@ -136,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (scrollRange + verticalOffset == 0) {
                     collapsingToolbar.setTitle(getString(R.string.app_name));
+
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(getString(R.string.app_name));
