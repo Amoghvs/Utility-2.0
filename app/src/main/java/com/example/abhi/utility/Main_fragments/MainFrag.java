@@ -61,7 +61,7 @@ public class MainFrag extends Fragment {
         options.add(option);
 
 
-        option = new Option(R.drawable.utility,"RULER");
+        option = new Option(R.drawable.rul,"ruler");
         options.add(option);
 
         option = new Option(R.drawable.happy,"b");

@@ -8,12 +8,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.abhi.utility.BMI;
-import com.example.abhi.utility.BaseActivity;
 import com.example.abhi.utility.Calendar;
 import com.example.abhi.utility.Compass;
 import com.example.abhi.utility.Flashlight;
 import com.example.abhi.utility.Notes;
 import com.example.abhi.utility.R;
+import com.example.abhi.utility.RulerActivity;
 import com.example.abhi.utility.TabWebSocial;
 import com.example.abhi.utility.Timer;
 import com.example.abhi.utility.WebActivity;
@@ -86,8 +86,8 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyViewHolder>  {
                         i = new Intent(c, Notes.class);
                         break;
 
-                    case "Ruler":
-                        i = new Intent(c, BaseActivity.class);
+                    case "ruler":
+                        i = new Intent(c, RulerActivity.class);
                         break;
 
                     case "facebook":
